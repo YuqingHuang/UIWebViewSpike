@@ -46,16 +46,16 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    [webView stringByEvaluatingJavaScriptFromString:@"var script = document.createElement('script');"
-     "script.type = 'text/javascript';"
-     "script.text = \"function myFunction() { "
-     "var btn = document.getElementById('tsbb');"
-     "btn.onclick = function(){alert('im here'); window.location.href='msp://www.baidu.com'};"
-     "}\";"
-     "document.getElementsByTagName('head')[0].appendChild(script);"];
+//    [webView stringByEvaluatingJavaScriptFromString:@"var script = document.createElement('script');"
+//     "script.type = 'text/javascript';"
+//     "script.text = \"function myFunction() { "
+//     "var btn = document.getElementById('tsbb');"
+//     "btn.onclick = function(){alert('im here'); window.location.href='msp://www.baidu.com'};"
+//     "}\";"
+//     "document.getElementsByTagName('head')[0].appendChild(script);"];
     
-    [webView stringByEvaluatingJavaScriptFromString:@"myFunction();"];
-
+//    [webView stringByEvaluatingJavaScriptFromString:@"myFunction();"];
+    [_webView stringByEvaluatingJavaScriptFromString:@"document.getElementById('tsbb').onclick = function(){alert('im here'); window.location.href='msp://www.baidu.com'};"];
 }
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
