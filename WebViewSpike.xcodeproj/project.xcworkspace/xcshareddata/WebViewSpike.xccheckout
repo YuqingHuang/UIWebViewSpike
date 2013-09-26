@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A91ADEC-788F-4FCF-A2B3-5D5DE257E046</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebViewSpike</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C48C99E3-C2D6-4375-9FBE-840AFCC97601</key>
+		<string>https://github.com/tinnolove/UIWebViewSpike.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebViewSpike.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C48C99E3-C2D6-4375-9FBE-840AFCC97601</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tinnolove/UIWebViewSpike.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C48C99E3-C2D6-4375-9FBE-840AFCC97601</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C48C99E3-C2D6-4375-9FBE-840AFCC97601</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WebViewSpike</string>
+		</dict>
+	</array>
+</dict>
+</plist>

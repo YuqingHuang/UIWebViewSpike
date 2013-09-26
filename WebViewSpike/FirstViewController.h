@@ -1,5 +1,5 @@
 //
-//  StartViewController.h
+//  FirstViewController.h
 //  WebViewSpike
 //
 //  Created by Huang Yuqing on 9/24/13.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartViewController : UIViewController <UIWebViewDelegate>
+@interface FirstViewController : UIViewController <UIWebViewDelegate>
+- (IBAction)launchLC:(id)sender;
 
 @end
